@@ -59,15 +59,15 @@ function hotelCost(day) {
 }
 
 //Find the largest name in a array
-function megaFriend(friend){
-    if(Array.isArray(friend)){
-        if(friend.length == 0){
+function megaFriend(friend) {
+    if (Array.isArray(friend)) {
+        if (friend.length == 0) {
             return "Array is empty";
         }
         var max = 0;
         var largestName = "";
-        for(var i=0; i<friend.length; i++){
-            if(friend[i].length > max){
+        for (var i = 0; i < friend.length; i++) {
+            if (friend[i].length > max) {
                 largestName = friend[i];
                 max = friend[i].length;
             }
